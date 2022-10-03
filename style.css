@@ -49,11 +49,8 @@ body{
 } 
 .container{
     padding: 7rem;
-    border-style:double;
-    border-width: 7px;
     width: fit-content;
     margin: auto;
-    item: spacing 20px;
 }
 /**area Page**/
 .base{
