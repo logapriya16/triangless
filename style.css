@@ -1,14 +1,15 @@
 :root{
-    --primary-color:
-    #e879f9;
+    --primary-color:#e879f9;
 }
+/**navigation style**/
 .list-item{
 display: inline; 
 padding: 0rem 0.5rem;   
-list-style: none;
+text-decoration: none;
 text-align: right;
+font-weight: bold;
 }
-.nav-container .Un-list{
+.Un-list{
     list-style: none;
 }
 .nav-container{
@@ -26,47 +27,95 @@ body{
     color:var(--primary-color);
     text-align: center;
     }
-.btn{ background: var(--primary-color);
-    border: none;
-    padding: 0.7rem 1rem;
-    border-radius: 0.5rem;
+    /**button styles**/
+.btn{ 
+    background-color:var(--primary-color);
+    border-color: hwb(292 18% 48%);
+    padding: 1rem;
+    border-radius: 1.5rem;
     font-size: large;
     cursor: pointer;
-    outline: #fff;
     margin: 1rem auto;
     display: block;
+    color:black;
 }   
 .input-lable{
     display: block;
-    width: 256px;
+    width: 300px;
     font-size: large;
     padding: 1rem;
+    margin: auto;
 } 
-.side-input{
-    font-size: 14px;
-    outline: #fff;
-    padding: 0.6rem 1rem;
-    margin: 1rem;
-    border-radius: 0.5rem;
-    width: 100%;
-    max-width: 258px;
+.container{
+    padding: 7rem;
+    border-style:double;
+    border-width: 7px;
+    width: fit-content;
+    margin: auto;
+    item: spacing 20px;
+}
+/**area Page**/
+.base{
+    display: block;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+.height{
+    display: block;
+    padding: 1.5rem;
+    font-weight: bold;
+    font-size: larger;
+}
+.input-box{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 30%;
+    border-radius: 15px;
+
 }
 .input-text.angle-input{
     font-size: 14px;
     outline: #fff;
-    padding: 0.6rem 1rem;
+    
     margin: 1rem;
     border-radius: 0.5rem;
     width: 100%;
+    max-width: 300px;
+    height: 40px;
+}
+.side-input{
+    font-size: 14px;
+    outline: #fff;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
     max-width: 258px;
+    display: block;
+    margin: auto;
 }
 .output{
     font-size: large;
     margin:1rem;
+    font-weight: BOLD;
 }
+/**quiz page **/
 .form{
     text-align:center;
 }
 .question-container{
     padding: 1rem;
+    border-color:var(--primary-color);
+    border-style:outset;
+    border-width: 15px;
+}
+.question{
+    text-align:justify;
+}
+.options{
+    border-radius: 50%;
+    top:0;
+    left:0;
 }

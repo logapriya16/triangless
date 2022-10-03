@@ -21,64 +21,65 @@
     </header>
     <form class="form">
         <div class="question-container">
-            <p>1.what is the third angle for the triangle where angle1=45° and angle2=40° ?</p>
+            <p class="question">1.what is the third angle for the triangle where angle1=45° and angle2=40° ?</p>
             <label>
-                <input type="radio" name="question1" value="45°" />45°
+                <input class="options" type="radio" name="question1" value="45°" />45°
             </label>
             <label>
-                <input type="radio" name="question1" value="60°" />60°
+                <input class="options" type="radio" name="question1" value="60°" />60°
             </label>
             <label>
-                <input type="radio" name="question1" value="95°" />95°
-            </label>
-        </div>
-        <div class="question-container">
-            <p>2.If one angle of a Triangle is equal to 90° then it is called as _____________ Triangle</p>
-            <label>
-                <input type="radio" name="question2" value="obtuse" />obtuse
-            </label>
-            <label>
-                <input type="radio" name="question2" value="acute" />acute
-            </label>
-            <label>
-                <input type="radio" name="question2" value="right angled" />right angled
+                <input class="options" type="radio" name="question1" value="95°" />95°
             </label>
         </div>
         <div class="question-container">
-            <p>3.A Perimeter of a triangle is defined as </p>
+            <p class="question">2.If one angle of a Triangle is equal to 90° then it is called as _____________ Triangle</p>
             <label>
-              <input type="radio" name="question3" value="sum of all the sides" />sum of all the sides
+                <input class="options" type="radio" name="question2" value="obtuse" />obtuse
             </label>
             <label>
-                <input type="radio" name="question3" value="sum of all the angles" />sum of all the angles
+                <input class="options" type="radio" name="question2" value="acute" />acute
+            </label>
+            <label>
+                <input class="options" type="radio" name="question2" value="right angled" />right angled
             </label>
         </div>
         <div class="question-container">
-            <p>4.The line  joining a vertex of a triangle to the mid point of its opposite side is called as ?</p>
+            <p class="question">3.A Perimeter of a triangle is defined as </p>
             <label>
-              <input type="radio" name="question4" value="Median" />Median
+              <input class="options" type="radio" name="question3" value="sum of all the sides" />sum of all the sides
             </label>
             <label>
-              <input type="radio" name="question4" value="Midsegment" />Midsegment
+                <input class="options" type="radio" name="question3" value="sum of all the angles" />sum of all the angles
+            </label>
+        </div>
+        <div class="question-container">
+            <p class="question">4.The line  joining a vertex of a triangle to the mid point of its opposite side is called as ?</p>
+            <label>
+              <input class="options" type="radio" name="question4" value="Median" />Median
             </label>
             <label>
-                <input type="radio" name="question4" value="Centroid" />Centroid
+              <input class="options" type="radio" name="question4" value="Midsegment" />Midsegment
             </label>
+            <label>
+                <input class="options" type="radio" name="question4" value="Centroid" />Centroid
+            </label>
+        </div>    
             <div class="question-container">
-                <p>5.A triangle where all sides are congruent is called?</p>
+                <p class="question">5.A triangle where all sides are congruent is called?</p>
                 <label>
-                  <input type="radio" name="question5" value="Equilateral triangle" />Equilateral triangle
+                  <input class="options"  type="radio" name="question5" value="Equilateral triangle" />Equilateral triangle
                 </label>
                 <label>
-                  <input type="radio" name="question5" value="Isosceles triangle" />Isosceles triangle
+                  <input class="options" type="radio" name="question5" value="Isosceles triangle" />Isosceles triangle
                 </label>
                 <label>
-                    <input type="radio" name="question5" value="Scalene triangle" />Scalene triangle
+                    <input class="options" type="radio" name="question5" value="Scalene triangle" />Scalene triangle
                 </label>
         </div>
     </form>
     <button id="submit-btn" class="btn"> Submit Answers</button>
-    <div id="output" class="output-div"></div>
+    <div id="output" class="output"></div>
     <script src="quiz.js"></script>
 </body>
 </html>
